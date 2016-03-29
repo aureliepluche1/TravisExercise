@@ -6,7 +6,7 @@ public class test
   public void testFlatRateDiscountStrategy()
   {
     int amt = 100;
-    FlatRateDiscountStrategy(amount);
+    FlatRateDiscountStrategy(amt);
     int price = 200;
     int result = applyDiscount(price);
     
