@@ -2,9 +2,9 @@ package strategydemo;
 
 public class FlatRateDiscountStrategy implements DiscountStrategy {
 
-	private double amount;
+	private float amount;
 
-	public FlatRateDiscountStrategy(double amount) {
+	public FlatRateDiscountStrategy(float amount) {
 		if (amount < 0) {
 			amount = 0;
 		}
